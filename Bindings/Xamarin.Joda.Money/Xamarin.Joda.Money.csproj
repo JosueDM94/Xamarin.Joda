@@ -54,18 +54,18 @@
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\joda-money-0.6.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <JavaSourceJar Include="Jars\joda-money-0.6-sources.jar" />
-  </ItemGroup>
-  <ItemGroup>
-    <JavaDocJar Include="Jars\joda-money-0.6-javadoc.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="Xamarin.Joda.Convert">
       <Version>1.1.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\joda-money-0.7.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaSourceJar Include="Jars\joda-money-0.7-sources.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaDocJar Include="Jars\joda-money-0.7-javadoc.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
