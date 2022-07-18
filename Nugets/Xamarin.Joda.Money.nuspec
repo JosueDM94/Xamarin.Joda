@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Xamarin.Joda.Money</id>
-    <version>0.9.1</version>
+    <version>0.10.0</version>
     <title>Xamarin.Joda.Money</title>
     <authors>Josue Diaz</authors>
     <owners>Josue Diaz</owners>
