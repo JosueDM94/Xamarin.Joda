@@ -54,13 +54,18 @@
     <Folder Include="Additions\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\joda-convert-1.7.jar" />
+    <PackageReference Include="Xamarin.Google.Guava">
+      <Version>23.2.0</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <JavaDocJar Include="Jars\joda-convert-1.7-javadoc.jar" />
+    <EmbeddedJar Include="Jars\joda-convert-1.8.jar" />
   </ItemGroup>
   <ItemGroup>
-    <JavaSourceJar Include="Jars\joda-convert-1.7-sources.jar" />
+    <JavaDocJar Include="Jars\joda-convert-1.8-javadoc.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <JavaSourceJar Include="Jars\joda-convert-1.8-sources.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

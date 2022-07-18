@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Xamarin.Joda.Convert</id>
-    <version>1.7</version>
+    <version>1.8</version>
     <title>Xamarin.Joda.Convert</title>
     <authors>Josue Diaz</authors>
     <owners>Josue Diaz</owners>
@@ -23,6 +23,7 @@
     <dependencies>
       <group targetFramework="MonoAndroid11.0">
         <!--MonoAndroid dependencies go here-->
+        <dependency id="Xamarin.Google.Guava" version="23.2.0" />
       </group>
     </dependencies>
     <frameworkAssemblies>
