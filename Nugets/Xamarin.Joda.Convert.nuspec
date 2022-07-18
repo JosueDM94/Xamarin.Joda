@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Xamarin.Joda.Convert</id>
-    <version>2.0.1</version>
+    <version>2.0.2</version>
     <title>Xamarin.Joda.Convert</title>
     <authors>Josue Diaz</authors>
     <owners>Josue Diaz</owners>
