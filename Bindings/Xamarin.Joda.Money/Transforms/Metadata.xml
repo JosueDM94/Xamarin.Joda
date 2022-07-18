@@ -1,0 +1,15 @@
+﻿<metadata>
+    <!-- Normalize the namespace for .NET -->
+    <attr path="/api/package[@name='org.joda.money']" name="managedName">Joda.Money</attr>
+    <attr path="/api/package[@name='org.joda.money.format']" name="managedName">Joda.Money.Format</attr>
+
+    <!--Error CS0535: 'Money' does not implement interface member 'IComparable.CompareTo(Object)'-->
+    <attr path="/api/package[@name='org.joda.money']/class[@name='Money']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='org.joda.money.BigMoneyProvider']]/parameter[1]"
+          name="managedType">Java.Lang.Object</attr>
+    <!--Error CS0535: 'BigMoney' does not implement interface member 'IComparable.CompareTo(Object)'-->
+    <attr path="/api/package[@name='org.joda.money']/class[@name='BigMoney']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='org.joda.money.BigMoneyProvider']]/parameter[1]"
+          name="managedType">Java.Lang.Object</attr>
+    <!--Error CS0535: 'CurrencyUnit' does not implement interface member 'IComparable.CompareTo(Object)'-->
+    <attr path="/api/package[@name='org.joda.money']/class[@name='CurrencyUnit']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='org.joda.money.CurrencyUnit']]/parameter[1]"
+          name="managedType">Java.Lang.Object</attr>
+</metadata>

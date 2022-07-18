@@ -1,0 +1,4 @@
+﻿<metadata>
+    <!-- Normalize the namespace for .NET -->
+    <attr path="/api/package[@name='org.joda.convert']" name="managedName">Joda.Convert</attr>
+</metadata>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamarin.Joda.Money</id>
+    <version>0.6</version>
+    <title>Xamarin.Joda.Money</title>
+    <authors>Josue Diaz</authors>
+    <owners>Josue Diaz</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <projectUrl>https://github.com/JosueDM94/Xamarin.Joda</projectUrl>
+    <description>Xamarin-Android bindings for Org.Joda - Joda.Money</description>
+    <summary>Xamarin-Android bindings for Org.Joda - Joda.Money</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright Josué Díaz © 2022</copyright>
+    <language>en-US</language>
+    <tags>xamarin, android, joda, money</tags>
+    <repository type="git" url="https://github.com/JosueDM94/Xamarin.Joda" />
+    <developmentDependency>false</developmentDependency>
+    <dependencies>
+      <group targetFramework="MonoAndroid11.0">
+        <!--MonoAndroid dependencies go here-->
+        <dependency id="Xamarin.Joda.Convert" version="1.1" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Java.Interop" targetFramework="MonoAndroid11.0" />
+      <frameworkAssembly assemblyName="Mono.Android" targetFramework="MonoAndroid11.0" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="MonoAndroid11.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="MonoAndroid11.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <!-- NuGet reference assemblies -->
+    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Joda/LICENSE" target="LICENSE" />
+
+    <!-- Android reference assemblies -->
+    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Joda/Bindings/Xamarin.Joda.Money/bin/Release/Xamarin.Joda.Money.dll" target="lib/monoandroid11.0/Xamarin.Joda.Money.dll" />
+    <file src="/Users/josuemanueldiasmayorga/Projects/Xamarin/Xamarin.Joda/Bindings/Xamarin.Joda.Money/bin/Release/Xamarin.Joda.Money.xml" target="lib/monoandroid11.0/Xamarin.Joda.Money.xml" />    
+  </files>
+</package>

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.25
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bindings", "Bindings", "{8999886E-8F4D-479F-95A1-4C8A34EC0C4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{7453ADAD-34A5-43BB-87E1-FA854C0F90E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nugets", "Nugets", "{549E80C1-C4E3-4EBE-9BA4-1E92BE036709}"
+	ProjectSection(SolutionItems) = preProject
+		Nugets\Xamarin.Joda.Money.nuspec = Nugets\Xamarin.Joda.Money.nuspec
+		Nugets\Xamarin.Joda.Convert.nuspec = Nugets\Xamarin.Joda.Convert.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Joda.Money", "Bindings\Xamarin.Joda.Money\Xamarin.Joda.Money.csproj", "{7D2FFE1C-5275-474C-A129-19C4B6442E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Joda.Convert", "Bindings\Xamarin.Joda.Convert\Xamarin.Joda.Convert.csproj", "{00529B88-0F07-4AB3-8C98-FE47685AC65F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D2FFE1C-5275-474C-A129-19C4B6442E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2FFE1C-5275-474C-A129-19C4B6442E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2FFE1C-5275-474C-A129-19C4B6442E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2FFE1C-5275-474C-A129-19C4B6442E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00529B88-0F07-4AB3-8C98-FE47685AC65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00529B88-0F07-4AB3-8C98-FE47685AC65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00529B88-0F07-4AB3-8C98-FE47685AC65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00529B88-0F07-4AB3-8C98-FE47685AC65F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26C798A7-6925-49B9-B58A-50379AE7B984}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D2FFE1C-5275-474C-A129-19C4B6442E01} = {8999886E-8F4D-479F-95A1-4C8A34EC0C4D}
+		{00529B88-0F07-4AB3-8C98-FE47685AC65F} = {8999886E-8F4D-479F-95A1-4C8A34EC0C4D}
+	EndGlobalSection
+EndGlobal
