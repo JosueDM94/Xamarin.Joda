@@ -23,7 +23,6 @@
     <dependencies>
       <group targetFramework="MonoAndroid11.0">
         <!--MonoAndroid dependencies go here-->
-        <dependency id="Xamarin.Google.Guava" version="23.2.0" />
       </group>
     </dependencies>
     <frameworkAssemblies>
