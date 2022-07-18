@@ -54,13 +54,13 @@
     <Folder Include="Additions\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\joda-convert-1.0.jar" />
+    <EmbeddedJar Include="Jars\joda-convert-1.1.jar" />
   </ItemGroup>
   <ItemGroup>
-    <JavaSourceJar Include="Jars\joda-convert-1.0-sources.jar" />
+    <JavaDocJar Include="Jars\joda-convert-1.1-javadoc.jar" />
   </ItemGroup>
   <ItemGroup>
-    <JavaDocJar Include="Jars\joda-convert-1.0-javadoc.jar" />
+    <JavaSourceJar Include="Jars\joda-convert-1.1-sources.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
