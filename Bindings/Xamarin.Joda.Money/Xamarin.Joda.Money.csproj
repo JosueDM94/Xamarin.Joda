@@ -59,10 +59,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\joda-money-1.0.jar" />
+    <EmbeddedJar Include="Jars\joda-money-1.0.1.jar" />
   </ItemGroup>
   <ItemGroup>
-    <JavaSourceJar Include="Jars\joda-money-1.0-sources.jar" />
+    <JavaSourceJar Include="Jars\joda-money-1.0.1-sources.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
