@@ -3,15 +3,12 @@
     <TargetFramework>net8.0-android</TargetFramework>
     <IsBindingProject>true</IsBindingProject>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AndroidGenerateResourceDesigner>false</AndroidGenerateResourceDesigner>
   </PropertyGroup>
 
   <ItemGroup>
-    <EmbeddedJar Include="Jars\joda-convert-2.2.2.jar" />
-    <JavaSourceJar Include="Jars\joda-convert-2.2.2-sources.jar" />
+    <JavaSourceJar Include="Jars\joda-convert-sources.jar" />
   </ItemGroup>
 
 </Project>

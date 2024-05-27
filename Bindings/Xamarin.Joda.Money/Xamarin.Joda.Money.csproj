@@ -3,19 +3,17 @@
     <TargetFramework>net8.0-android</TargetFramework>
     <IsBindingProject>true</IsBindingProject>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AndroidGenerateResourceDesigner>false</AndroidGenerateResourceDesigner>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Joda.Convert" Version="2.2.2.1" />
+    <PackageReference Include="Xamarin.Joda.Convert" Version="2.2.2.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedJar Include="Jars\joda-money-1.0.1.jar" />
-    <JavaSourceJar Include="Jars\joda-money-1.0.1-sources.jar" />
+    <AndroidLibrary Update="Jars\joda-money.jar" Bind="true" />
+    <JavaSourceJar Include="Jars\joda-money-sources.jar" />
   </ItemGroup>
 
 </Project>
